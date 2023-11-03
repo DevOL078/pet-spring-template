@@ -1,0 +1,1 @@
+CREATE SCHEMA IF NOT EXISTS "spring-template" AUTHORIZATION postgre;
