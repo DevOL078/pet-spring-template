@@ -8,10 +8,19 @@
 
 The service has one endpoint _/dummy_, which returns body "DUMMY" for demonstrating the sample controller.
 
-### Run application
+### Run PostgreSQL and PgAdmin (docker)
+
+    cd ./infra
+    docker-compose up -d
+
+### Run application (using gradlew)
 
     ./gradlew bootRun
 
 ### Run tests
 
     ./gradlew test
+
+### TODO
+
+- Run application in docker
